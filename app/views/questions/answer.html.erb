@@ -1,0 +1,13 @@
+<h1>This is my answer view</h1>
+<div class="echange">
+  <div class="question">
+    <%= params[:question] %>
+    <p> - You</p>
+  </div>
+  <div class="reponse">
+    <%= @response %>
+    <p> - Your coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask a new question", "/ask" %>

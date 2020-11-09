@@ -1,0 +1,23 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.echange {
+  background-color: #eaeaea;
+  width: 400px;
+  margin: 50px auto;
+  font-family: Georgia;
+  .reponse {
+    background-color:#FFFFE2;
+    padding: 10px;
+  }
+  .question {
+    padding: 10px;
+  }
+}
+
+.btn {
+  background-color: #0466D6;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
